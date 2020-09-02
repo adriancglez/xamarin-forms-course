@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="B_XamarinViewsApp.MainPage">
+
+    <!--<ActivityIndicator Color="Red" IsRunning="True"/>-->
+    <!--<BoxView Color="Yellow"/>-->
+    <StackLayout
+        HorizontalOptions="Center"
+        VerticalOptions="Center">
+        <Button 
+            Text="Clickeame!"
+            TextColor="Blue"
+            FontSize="Large"
+            FontAttributes="Italic"
+            BackgroundColor="Red"
+            BorderColor="Blue"
+            BorderWidth="2"
+            CornerRadius="10"
+            ImageSource="customer.png"
+            ContentLayout="Top,10"
+            Clicked="Button_Clicked"
+            />
+    </StackLayout>
+</ContentPage>
